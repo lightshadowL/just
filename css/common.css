@@ -4,6 +4,7 @@ html,body{
     font-size:16px;
     color:#333333;
     background-color:#ffffff;
+    margin:0;
 }
 a{
     text-decoration: none;
@@ -17,4 +18,24 @@ img{
 }
 *{
     box-sizing:border-box;
+}
+
+/* 헤더 */
+header{
+    width:1200px;
+    height:100px;
+    background-color:#eee;
+    margin:auto;
+}
+#section{
+    width:1200px;
+    height:500px;
+    background-color:#ddd;
+    margin:auto;
+}
+footer{
+    width:1200px;
+    height:100px;
+    background-color:#ccc;
+    margin:auto;
 }
