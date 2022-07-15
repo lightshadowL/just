@@ -24,14 +24,14 @@ img{
 header{
     width:1200px;
     height:100px;
-    background-color:#eee;
+    /* background-color:#eee; */
     margin:auto;
     display:flex;
 }
 h1{
     width:200px;
     height:100%;
-    border-right:1px dashed black;
+    /* border-right:1px dashed black; */
     margin:0;
     display:flex;
     justify-content: center;
@@ -68,6 +68,9 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.main-nav>li:last-child{
+    border-right:none;
+}
 .main-nav>li>a{
     display:flex;
     width:100%;
@@ -83,9 +86,74 @@ nav{
 #section{
     width:1200px;
     height:500px;
-    background-color:#ddd;
+    /* background-color:#ddd; */
     margin:auto;
 }
+.slider-wrap{
+    width:100%;
+    height:300px;
+    border-bottom:1px dashed black;
+}
+.slider-wrap img{
+    width:100%;
+}
+.n-g-b{
+    width:100%;
+    height:200px;
+    /* background-color:#eee; */
+    display:flex;
+
+}
+.notic,
+.gallery,
+.banner{
+    width:33.33%;
+    height:100%;
+    border-right:1px dashed black;
+    padding:10px;
+}
+.notic h3,
+.gallery h3{
+    width:150px;
+    height:30px;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    margin:0;
+    margin-left:10px;
+
+}
+.notic ul{
+    width:100%;
+    height:150px;
+    border:1px solid black;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.notic ul li{
+    height:37px;
+    border-bottom:1px dashed black;
+    display:flex;
+    width:100%;
+    align-items: center;
+}
+.notic ul li:last-child{
+    border-bottom:none;
+}
+.notic ul li:nth-child(even){
+    background-color:#eee;
+}
+.notic ul li a{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
 /* 푸터 */
 footer{
     width:1200px;
