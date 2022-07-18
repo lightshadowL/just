@@ -183,4 +183,39 @@ footer{
     height:100px;
     background-color:#ccc;
     margin:auto;
+    display:flex;
+}
+footer h2{
+    width:200px;
+    height:100%;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer h2 img{
+    width:100%;
+}
+.copy{
+    width:63%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sns{
+    width:20%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sns a{
+    display:block;
+    width:25%;
+}
+.sns a img{
+    width:100%;
 }
